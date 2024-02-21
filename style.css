@@ -1,0 +1,330 @@
+:root {
+  --primary-red: #931c1c;
+  --light-grey: #ececec;
+  --beige: #C67F7F;
+}
+
+* {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+  background: #ececec;
+}
+
+/*LOGO*/
+.logo {
+  height: 90%;
+  width: 145px;
+}
+
+.container-logo {
+  background-color: #ffffff;
+}
+
+/*Navbar*/
+.container-navbar {
+  background-color: #ffffff;
+}
+
+
+.navbar-link {
+  text-decoration: none;
+  color: grey;
+  width: 50%;
+}
+
+/*FINE Navbar*/
+
+
+/*HEADER*/
+h1 {
+  font-family: 'Nova Square', sans-serif;
+  color: var(--primary-red) !important;
+  font-size: 90px;
+  word-spacing: 3vh;
+}
+
+.header {
+  height: 115vh;
+  width: 100%;
+  background-size: cover;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.333858543417367) 50%, rgba(255, 255, 255, 0) 100%), url(./media/switzerland-862870_1920.jpg);
+  background-repeat: no-repeat;
+}
+
+.img-montagna {
+  height: 100%;
+  background-size: cover;
+}
+
+.siluette-montagna {
+  height: 100%;
+  width: 100%;
+  background: url("./media/mountains2.png");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 1895px;
+}
+
+/*FINE HEADER*/
+
+/*QUOTE*/
+h2 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-right: 16%;
+  padding-left: 16%;
+  line-height: 29px;
+
+}
+
+.contentquote {
+  font-family: 'Rajdhani', sans-serif;
+  color: grey;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 0px 400px;
+}
+
+.quote {
+  color: var(--primary-red);
+  font-size: 3rem;
+  position: relative;
+  margin-top: -16px;
+}
+
+.quote:first-of-type {
+  margin-left: -22px;
+}
+
+/*FINE QUOTE*/
+
+/*ITINERARIO*/
+.icona-itinerario {
+  color: var(--primary-red);
+}
+
+.border-iter {
+  border-bottom: 4px solid var(--primary-red);
+
+}
+
+.pallino::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 2px solid var(--primary-red);
+  position: absolute;
+  bottom: -1025px;
+
+}
+
+
+/* INIZIO MAIN */
+
+/*DOPPIO LOREM*/
+.container-doppio-lorem {
+  padding-top: 250px;
+}
+
+h3 {
+  color: var(--primary-red);
+  font-weight: 800;
+}
+
+.paragrafo-doppio-lorem {
+  color: grey;
+  font-size: larger;
+}
+
+/*BOTTONE CENTRALE*/
+.container-bottone {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bottone-centrale {
+  font-family: 'Rajdhani', sans-serif;
+  background-color: var(--primary-red);
+  border-color: var(--primary-red);
+  width: 200px;
+}
+
+/* FINE BOTTONE CENTRALE */
+
+/* FINE MAIN */
+
+/* SILUETTE ALBERI BIANCA */
+main {
+  background-image: url(./media/trees2.png);
+  background-repeat: no-repeat;
+  background-size: 1900px;
+  background-position: bottom;
+  padding-bottom: 10%;
+}
+/* FINE ALBERI */
+
+/* TIMELINE */
+.titolo {
+  font-size: 50px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+}
+
+.timeline {
+  width: 50%;
+  border-left: 4px solid var(--primary-red);
+  padding-left: 1%;
+  margin-left: 40px;
+}
+
+.text-line {
+  font-size: 30px;
+  color: rgb(150, 47, 47);
+}
+
+.text-line::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(249, 249, 249);
+  border: 2px solid var(--primary-red);
+  position: absolute;
+  left: 32px;
+}
+
+.testo {
+  font-size: 22px;
+  padding-bottom: 5%;
+}
+
+/* SILUETTE GRIGIA ALBERO */
+section.sfondo {
+  background-color: white;
+  background-image: url(./media/single.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 900px;
+  height: 1200px;
+}
+/* FINE TIMELINE */
+
+/* CARDS */
+section.background {
+  padding-bottom: 20%;
+}
+
+.ourteam {
+  font-size: 50px;
+  padding-top: 7%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.container-testo-palle {
+  padding-bottom: 150px;
+}
+
+.card-palle {
+  background-color: #ececec;
+  width: 225px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card-img {
+  display: block;
+  max-width: 100%;
+  height: 300px;
+  background-color: #ececec !important;
+  border: 5px solid var(--primary-red);
+  /* Bordo rosso intorno al bordo bianco */
+  border-radius: 200px;
+  padding: 10px;
+  /* Aggiunge spazio tra l'immagine e il bordo rosso */
+}
+
+h4 {
+  color: var(--primary-red);
+}
+
+div>i {
+  color: var(--primary-red);
+}
+
+/*OUR BENEFIT*/
+.ourbenefit {
+  font-size: 50px;
+  padding-top: 7%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+}
+
+.card-ourbenefit {
+  background-color: #ececec;
+
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card-img-ourbenefit {
+  display: block;
+  max-width: 90%;
+  height: 300px;
+  background-color: #ececec !important;
+  border: 5px solid var(--primary-red);
+  /* Bordo rosso intorno al bordo bianco */
+  border-radius: 200px;
+  padding: 10px;
+  /* Aggiunge spazio tra l'immagine e il bordo rosso */
+
+}
+
+/*SILOUETTE ALBERI ROSSA*/
+section.sfondo2 {
+  background-color: #ececec;
+  background-image: url(./media/other.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 1920px;
+  height: 600px;
+}
+
+
+ /*FOOTER*/
+.footer {
+  background-color: darkred;
+  height: 300px;
+}
+
+ul {
+  color: aliceblue;
+}
+
+.footer-lorem {
+color: aliceblue;
+}
+
+.footer-lorem-h3 {
+  font-size: 40px;
+}
